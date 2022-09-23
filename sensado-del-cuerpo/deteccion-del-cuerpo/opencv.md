@@ -58,6 +58,7 @@ Acá hablamos de las hermosas cascadas de Haar acá estoy editando verdad
    1. Acá te vamos a referir a "Detección de cuerpo" que tiene el diagrama de esto&#x20;
 3. Explicamos el objeto openCV
 4. Done! yay!
+5. heWO
 
 ## Referencias y bibliografía relacionada
 
