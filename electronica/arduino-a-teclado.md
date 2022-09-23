@@ -6,20 +6,21 @@ Lenguajes, Arduino, Processing, Traducción
 
 {% tabs %}
 {% tab title="Conocimientos" %}
-Conocimiento básico de Arduino
+Conocimiento mínimo de Arduino
+Conocimiento básico de Processing
 {% endtab %}
 
 {% tab title="Requerimientos" %}
 Software
 
 * Arduino IDE
-* Processing 4.0 o más
+* Processing 3.0 o más
 
 Hardware
 
-* 4 botones
+* 1 o más botones, finales de carrera o pulsador
 * cablecitos
-* Arduino (esto completalo vos Fer pls )
+* Arduino UNO, MEGA, NANO
 {% endtab %}
 
 {% tab title="Links relacionados" %}
@@ -59,7 +60,7 @@ void loop() {
 	// Si el boton está presionado, enviamos por puerto serial la letra "U"
   if(digitalRead( button ) == HIGH){
     Serial.print("U");
-  } 
+  }
 }
 ```
 
@@ -102,7 +103,7 @@ void draw() {
     String serialRead = port.readString(); // lo leo
     println(serialRead); // y lo imprimo
   }
-  
+
   port.clear();  // Al final de cada fotograma, vacío el puerto
 }
 ```
@@ -173,16 +174,16 @@ void draw() {
   if (port.available()>0) { // Si hay un mensaje en el puerto
     String serialRead = port.readString(); // lo leo
     println(serialRead); // y lo imprimo
-		
+
 		// Devuelve true si la string es igual a "U"
 		boolean buttonPressed = serialRead.equals("U");
-    
-    if(buttonPressed) 
+
+    if(buttonPressed)
       r.keyPress(KeyEvent.VK_SPACE); // Presiono la tecla
-    else 
+    else
       r.keyRelease(KeyEvent.VK_SPACE); // La libero
   }
-  
+
   port.clear();  // Al final de cada fotograma, vacío el puerto
 }
 ```
@@ -227,14 +228,14 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
 
     void loop() {
     	// Cada botón se envía como una parte de una misma string
-    	// Si se presionara, por ejemplo, para ir arriba y a la 
+    	// Si se presionara, por ejemplo, para ir arriba y a la
     	// derecha, processing recibiría la siguiente string:
     	// "U,R,"
-    	// De esta forma el usuario puede ejecutar múltiples 
+    	// De esta forma el usuario puede ejecutar múltiples
     	// eventos en un mismo fotograma.
       if(isButtonPressed( buttonUp )){
         Serial.print("U,");
-      } 
+      }
       if(isButtonPressed( buttonDown )){
         Serial.print("D,");
       }
@@ -247,7 +248,7 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
 
       if(isButtonPressed( buttonZ )){
         Serial.print("Z,");
-      } 
+      }
       if(isButtonPressed( buttonX )){
         Serial.print("X,");
       }
@@ -269,32 +270,32 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
 *   Ejemplo 1 - “Explícito”
 
     ```java
-    ( ... ) 
+    ( ... )
     // El setup es el mismo que veníamos trabajando
 
     void draw() {
       if (port.available()>0) {
         String full = port.readString();
         String s[] = split(full, ',');
-        
+
         println(full);
-        
+
         boolean upPressed = false;
         boolean downPressed = false;
         boolean leftPressed = false;
         boolean rightPressed = false;
-        
+
         boolean zPressed = false;
         boolean xPressed = false;
         boolean cPressed = false;
         boolean vPressed = false;
-        
+
         for(int i = 0; i < s.length; i++) {
           if(s[i].equals("U")) upPressed = true;
           if(s[i].equals("D")) downPressed = true;
           if(s[i].equals("R")) rightPressed = true;
           if(s[i].equals("L")) leftPressed = true;
-          
+
           if(s[i].equals("Z")) zPressed = true;
           if(s[i].equals("X")) xPressed = true;
           if(s[i].equals("C")) cPressed = true;
@@ -302,44 +303,44 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
         }
         if(upPressed) r.keyPress(KeyEvent.VK_UP);
         else r.keyRelease(KeyEvent.VK_UP);
-        
+
         if(downPressed) r.keyPress(KeyEvent.VK_DOWN);
         else r.keyRelease(KeyEvent.VK_DOWN);
-        
+
         if(rightPressed) r.keyPress(KeyEvent.VK_RIGHT);
         else r.keyRelease(KeyEvent.VK_RIGHT);
-        
+
         if(leftPressed) r.keyPress(KeyEvent.VK_LEFT);
         else r.keyRelease(KeyEvent.VK_LEFT);
-        
+
         if(zPressed) r.keyPress(KeyEvent.VK_Z);
         else r.keyRelease(KeyEvent.VK_Z);
-        
+
         if(xPressed) r.keyPress(KeyEvent.VK_X);
         else r.keyRelease(KeyEvent.VK_X);
-        
+
         if(cPressed) r.keyPress(KeyEvent.VK_C);
         else r.keyRelease(KeyEvent.VK_C);
-        
+
         if(vPressed) r.keyPress(KeyEvent.VK_V);
         else r.keyRelease(KeyEvent.VK_V);
-        
+
       } else {
         r.keyRelease(KeyEvent.VK_UP);
         r.keyRelease(KeyEvent.VK_DOWN);
         r.keyRelease(KeyEvent.VK_LEFT);
         r.keyRelease(KeyEvent.VK_RIGHT);
-        
+
         r.keyRelease(KeyEvent.VK_Z);
         r.keyRelease(KeyEvent.VK_X);
         r.keyRelease(KeyEvent.VK_C);
         r.keyRelease(KeyEvent.VK_V);
         println(".");
       }
-      
+
       port.clear();
       // println(".");
-      
+
     }
     ```
 *   Ejemplo 2 - “Elegante”
@@ -348,12 +349,12 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
     class Botoino {
       String name;
       int keyEvent;
-      
+
       Botoino(String _name, int _keyEvent) {
            name = _name;
            keyEvent = _keyEvent;
       }
-      
+
       void presionarSiEnMsj (String msj) {
         if(msj.indexOf(name) >= 0){
           r.keyPress(keyEvent);
@@ -361,7 +362,7 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
           r.keyRelease(keyEvent);
         }
       }
-      
+
       void soltarTecla() {
         r.keyRelease(keyEvent);
       }
@@ -407,7 +408,7 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
         exit();
       }
       port.clear();
-      
+
       // INICIALIZAR TECLAS
       arriba = new Botoino("U", KeyEvent.VK_UP);
       abajo = new Botoino("D", KeyEvent.VK_DOWN);
@@ -417,29 +418,29 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
 
     void draw() {
       // SI HAY ALGO EN EL PUERTO SERIAL
-      if (port.available()>0) { 
+      if (port.available()>0) {
         // LA STRING QUE RECIBIMOS POR PUERTO SERIAL
         String serialRead = port.readString();
         println(serialRead);
-        
+
         // LEEMOS LA STRING Y VEMOS SI EJECUTAMOS LA TECLA O NO
         arriba.presionarSiEnMsj(serialRead);
         abajo.presionarSiEnMsj(serialRead);
         izquierda.presionarSiEnMsj(serialRead);
         derecha.presionarSiEnMsj(serialRead);
-        
+
       } else {
         arriba.soltarTecla();
         abajo.soltarTecla();
         izquierda.soltarTecla();
         derecha.soltarTecla();
-        
+
         println(".");
       }
-      
+
       port.clear();
       // println(".");
-      
+
     }
     ```
 
