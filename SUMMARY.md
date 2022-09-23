@@ -2,17 +2,6 @@
 
 * [Bienvenidos](README.md)
 
-## 😝 PRUEBAS CAÓTICAS
-
-* [bloques](pruebas-caoticas/bloques.md)
-* [cuantas páginas puedo anidar](pruebas-caoticas/cuantas-paginas-puedo-anidar/README.md)
-  * [Page 1](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/README.md)
-    * [Page 2](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/page-2/README.md)
-      * [Page 3](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/page-2/page-3/README.md)
-        * [Page 4](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/page-2/page-3/page-4/README.md)
-          * [Page 5](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/page-2/page-3/page-4/page-5/README.md)
-            * [Page 6](pruebas-caoticas/cuantas-paginas-puedo-anidar/page-1/page-2/page-3/page-4/page-5/page-6.md)
-
 ## Sensado del cuerpo
 
 * [Detección del cuerpo](sensado-del-cuerpo/deteccion-del-cuerpo/README.md)
