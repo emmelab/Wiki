@@ -49,7 +49,7 @@ Esta última es la funcionalidad que usaremos para la detección de una parte de
 
 ### ¿Cómo funciona?
 
-Acá hablamos de las hermosas cascadas de Haar
+Acá hablamos de las hermosas cascadas de Haar acá estoy editando verdad
 
 ## Detección con openCV y Processing
 
