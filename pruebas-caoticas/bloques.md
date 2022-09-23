@@ -2,7 +2,7 @@
 
 esto es un parrafo
 
-## aca esta es mi edición 1
+## esto es el heading 1
 
 ### esto es el heading 2
 
