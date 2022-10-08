@@ -20,7 +20,7 @@
 
 ## Super carpeta
 
-* [Super artículo](super-carpeta/super-articulo.md)
+* [Nombre artículo](super-carpeta/super-articulo.md)
 
 ## Sobre emmeLab
 
