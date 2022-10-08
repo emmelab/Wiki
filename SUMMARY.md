@@ -18,10 +18,6 @@
 
 * [Síntesis de datos con Pure Data](sonido/sintesis-de-datos-con-pure-data.md)
 
-## Super carpeta
-
-* [Nombre artículo](super-carpeta/super-articulo.md)
-
 ## Sobre emmeLab
 
 * [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
