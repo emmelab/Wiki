@@ -21,8 +21,3 @@
 ## Sobre emmeLab
 
 * [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
-
-## Proyectos
-
-* [Page 1](proyectos/page-1/README.md)
-  * [PrimerAnexo](proyectos/page-1/primeranexo.md)
