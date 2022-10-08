@@ -18,7 +18,7 @@
 
 * [Síntesis de datos con Pure Data](sonido/sintesis-de-datos-con-pure-data.md)
 
-## Super-carpeta
+## Super carpeta
 
 * [Super artículo](super-carpeta/super-articulo.md)
 
