@@ -12,7 +12,6 @@ Cascadas de Haar, OpenCV, Visión computacional
 
 {% tabs %}
 {% tab title="Conocimientos" %}
-* Conocimiento básico del protocolo OSC
 * Conocimiento básico de paradigma orientado a objetos
 {% endtab %}
 
