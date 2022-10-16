@@ -1,7 +1,5 @@
 ---
-description: >-
-  Está página muestra como detectar una parte del cuerpo con OpenCV for
-  Processing
+description: Por Julia Saenz
 ---
 
 # OpenCV
