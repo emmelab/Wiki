@@ -17,7 +17,6 @@ Cascadas de Haar, OpenCV, Visión computacional
 Software
 
 * Processing
-* Librería de OSC para Processing
 * Librería de openCV para Processing
 
 Hardware
