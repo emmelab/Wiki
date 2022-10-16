@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Bienvenidos](README.md)
-* [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
+* [Bienvenides](README.md)
 
 ## Sensado del cuerpo
 
@@ -20,3 +19,5 @@
 * [Síntesis de datos con Pure Data](sonido/sintesis-de-datos-con-pure-data.md)
 
 ## Sobre emmeLab
+
+* [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
