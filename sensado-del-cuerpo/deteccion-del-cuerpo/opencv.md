@@ -45,6 +45,10 @@ Esta última es la funcionalidad que usaremos para la detección de una parte de
 
 Acá hablamos de las hermosas cascadas de Haar acá estoy editando verdad
 
+{% hint style="danger" %}
+ACÁ ME FALTA EXPLICACIÓN
+{% endhint %}
+
 ## Detección con openCV y Processing
 
 {% hint style="info" %}
