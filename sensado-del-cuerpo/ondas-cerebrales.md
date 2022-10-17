@@ -80,15 +80,15 @@ Descargar el software Bluetooth Manager y ahí le debe decir el puerto del senso
 
 ## Descargas
 
-Código fuente
+**Código fuente**
 
 {% embed url="https://github.com/LucianoNahuelEspinosa/Ondas_Cerebrales" %}
 
-Ejecutables
+**Ejecutables**
 
-[Windows (64 bits)](https://drive.google.com/file/d/1pPv6eD7bbp1vdy8kbWvpjCb2NTqlRt6b/view?usp=sharing)
-[Linux (64 bits)](https://drive.google.com/file/d/1y24tR63k4sxq19a0M5-Rr5Z-PMzquRmT/view?usp=sharing)
+- [Windows (64 bits)](https://drive.google.com/file/d/1pPv6eD7bbp1vdy8kbWvpjCb2NTqlRt6b/view?usp=sharing)
+- [Linux (64 bits)](https://drive.google.com/file/d/1y24tR63k4sxq19a0M5-Rr5Z-PMzquRmT/view?usp=sharing)
 
-Librería MindSet Processing
+**Librería MindSet Processing**
 
 {% embed url="http://jorgecardoso.eu/processing/MindSetProcessing/" %}
