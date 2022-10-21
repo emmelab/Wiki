@@ -49,11 +49,12 @@ Los tipos de ondas cerebrales que emite el cuerpo humano son:
 
 Se ha desarrollado un software capaz de detectar las ondas cerebrales del sernsor EGG **Neurosky Mindwave mobile 2**, que permite no solo obtener las frecuencias de las ondas cerebrales ya mencionadas sino también agrega variantes como Low Alpha, Mid Gamma, etc, y también agrega niveles de atención y meditación, que son el punto fuerte de este sensor, que hace un calculo entre las diferentes ondas para saber si el usuario está relajado o esta muy atento.
 
-<figure><img src="../.gitbook/assets/Captura de pantalla 2022-10-17 155307.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brainwave (1).png" alt="Picture 1"><figcaption></figcaption></figure>
 
 El software, denominado NeuroMind, fue desarrollado en el entorno de programación Processing, utilizando la librería Mindset Processing para la detección de las ondas cerebrales y oscP5 para la comunicación OSC. El software permite conectar con el sensor, visualizar los valores en números y en formato de gráfico, y permite añadir, modificar y eliminar direcciones ip y puertos para la conexión OSC, además permite crear, modificar y eliminar, direcciones OSC personalizadas y hacer mapeo de los valores de las mediciones.
 
-![](https://drive.google.com/file/d/1TJlmovr1AtZJ62vnLF79bLU9e0W8QHi1/view?usp=sharing) ![](https://drive.google.com/file/d/17Wxkwz3\_FyODS99nkbt\_KH--ROvdnMUn/view?usp=sharing)
+<figure><img src="../.gitbook/assets/Brainwave (2).png" alt="Picture 2"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Brainwave (3).png" alt="Picture 2"><figcaption></figcaption></figure>
 
 #### Como vincular el sensor con el software
 
