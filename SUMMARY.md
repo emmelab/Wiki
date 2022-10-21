@@ -22,3 +22,7 @@
 
 * [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
 * [Facultad de Artes](https://fba.unlp.edu.ar/)
+
+## Proyectos
+
+* [EVEN](proyectos/even.md)
