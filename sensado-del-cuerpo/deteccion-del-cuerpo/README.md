@@ -19,8 +19,6 @@ Software
 
 {% tab title="Links" %}
 {% embed url="https://processing.org/" %}
-
-{% embed url="https://sojamo.de/libraries/oscp5/" %}
 {% endtab %}
 {% endtabs %}
 
@@ -54,7 +52,7 @@ El `Detector` es el encargado de hacer el sensado del cuerpo usando alguna libre
 
 En este caso es probable que también haya nuevos métodos privados a la clase ( ver detección con OpenCV )  pero el método importante es uno:
 
-* `medicion( PImage feed)` recibe el feed y realiza la detección&#x20;
+* `medicion(PImage feed)` recibe el feed y realiza la detección&#x20;
 
 Para crear una instancia de esta clase en el programa principal escribimos:
 

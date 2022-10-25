@@ -10,8 +10,6 @@
 
 * [Detección del cuerpo con Processing](sensado-del-cuerpo/deteccion-del-cuerpo/README.md)
   * [OpenCV](sensado-del-cuerpo/deteccion-del-cuerpo/opencv.md)
-  * [PoseOSC](sensado-del-cuerpo/deteccion-del-cuerpo/poseosc.md)
-  * [TSPS](sensado-del-cuerpo/deteccion-del-cuerpo/tsps.md)
 * [Ondas Cerebrales](sensado-del-cuerpo/ondas-cerebrales.md)
 
 ## Electrónica
