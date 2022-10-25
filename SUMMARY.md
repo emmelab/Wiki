@@ -2,6 +2,10 @@
 
 * [Bienvenides](README.md)
 
+## Proyectos
+
+* [EVEN](proyectos/even.md)
+
 ## Sensado del cuerpo
 
 * [Detección del cuerpo con Processing](sensado-del-cuerpo/deteccion-del-cuerpo/README.md)
@@ -22,7 +26,3 @@
 
 * [Sitio de emmeLab](http://emmelab.fba.unlp.edu.ar/)
 * [Facultad de Artes](https://fba.unlp.edu.ar/)
-
-## Proyectos
-
-* [EVEN](proyectos/even.md)
