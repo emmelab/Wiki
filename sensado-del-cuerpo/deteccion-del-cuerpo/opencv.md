@@ -43,11 +43,11 @@ Esta última es la funcionalidad que usaremos para la detección de una parte de
 
 ### ¿Cómo funciona?
 
-Acá hablamos de las hermosas cascadas de Haar acá estoy editando verdad
+Las **cascadas de Haar** son un método de detección de objetos basado en imágenes. Se configuran mediante imágenes que tienen aquello que se quiere detectar (imágenes positivas) e imágenes que no lo tengan (imágenes negativas), a partir de las cuales se extraen y agrupan las características que hacen al objeto que se quiere reconocer.&#x20;
 
-{% hint style="danger" %}
-ACÁ ME FALTA EXPLICACIÓN
-{% endhint %}
+Una vez configurada la cascada, para realizar la detección el algoritmo recorre la imagen y evalúa si cumple con todas las características encontradas, yendo de la más general a la más particular.
+
+<figure><img src="https://docs.opencv.org/3.4/haar.png" alt=""><figcaption><p>Ejemplo de una detección de rostro por cascada de Haar. Disponible en <a href="https://docs.opencv.org/3.4/haar.png">https://docs.opencv.org/3.4/haar.png</a></p></figcaption></figure>
 
 ## Detección con openCV y Processing
 
