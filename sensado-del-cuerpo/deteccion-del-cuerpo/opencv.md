@@ -8,6 +8,10 @@ description: Por Julia Saenz
 
 Cascadas de Haar, OpenCV, Visión computacional
 
+#### Objetivo
+
+Programa que detecte y siga la posición de la mano
+
 {% tabs %}
 {% tab title="Conocimientos" %}
 * Conocimiento básico de paradigma orientado a objetos

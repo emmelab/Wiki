@@ -4,10 +4,12 @@ description: Por Luciano Nahuel Espinosa
 
 # Ondas Cerebrales
 
-**Palabras Clave:** EEG, Ondas cerebrales, OSC
+**Palabras Clave**
+
+EEG, Ondas cerebrales, OSC
 
 {% tabs %}
-{% tab title="Conocimientos" %}
+{% tab title="Conocimiento" %}
 * Conocimiento básico en programación orientado a objetos
 * Conocimiento básico en el protocolo de comunicación Open Sound Control (OSC)
 {% endtab %}
@@ -20,14 +22,12 @@ Software
 
 Hardware
 
-* Neurosky Mindwave mobile 2
 * Computadora con bluetooth
+* Neurosky Mindwave mobile 2
 {% endtab %}
 
 {% tab title="Links" %}
 {% embed url="https://processing.org" %}
-
-{% embed url="https://github.com/LucianoNahuelEspinosa/Ondas_Cerebrales" %}
 {% endtab %}
 {% endtabs %}
 
@@ -47,16 +47,17 @@ Los tipos de ondas cerebrales que emite el cuerpo humano son:
 
 ### Software
 
-Se ha desarrollado un software capaz de detectar las ondas cerebrales del sernsor EGG **Neurosky Mindwave mobile 2**, que permite no solo obtener las frecuencias de las ondas cerebrales ya mencionadas sino también agrega variantes como Low Alpha, Mid Gamma, etc, y también agrega niveles de atención y meditación, que son el punto fuerte de este sensor, que hace un calculo entre las diferentes ondas para saber si el usuario está relajado o esta muy atento.
+Se ha desarrollado un software capaz de detectar las ondas cerebrales del sensor EGG **Neurosky Mindwave mobile 2**, que permite no solo obtener las frecuencias de las ondas cerebrales ya mencionadas sino también agrega variantes como Low Alpha, Mid Gamma, etc, y también agrega niveles de atención y meditación, que son el punto fuerte de este sensor, que hace un calculo entre las diferentes ondas para saber si el usuario está relajado o esta muy atento.
 
 <figure><img src="../.gitbook/assets/Brainwave (1).png" alt="Picture 1"><figcaption></figcaption></figure>
 
 El software, denominado NeuroMind, fue desarrollado en el entorno de programación Processing, utilizando la librería Mindset Processing para la detección de las ondas cerebrales y oscP5 para la comunicación OSC. El software permite conectar con el sensor, visualizar los valores en números y en formato de gráfico, y permite añadir, modificar y eliminar direcciones ip y puertos para la conexión OSC, además permite crear, modificar y eliminar, direcciones OSC personalizadas y hacer mapeo de los valores de las mediciones.
 
 <figure><img src="../.gitbook/assets/Brainwave (2).png" alt="Picture 2"><figcaption></figcaption></figure>
+
 <figure><img src="../.gitbook/assets/Brainwave (3).png" alt="Picture 2"><figcaption></figcaption></figure>
 
-#### Como vincular el sensor con el software
+#### Cómo vincular el sensor con el software
 
 Para que el software pueda detectar las ondas cerebrales desde el dispositivo se necesita que la computadora tenga **Bluetooth**, vincular el sensor con la computadora y poner el puerto serial correspondiente en el software.
 
