@@ -6,8 +6,7 @@ Lenguajes, Arduino, Processing, Traducción
 
 {% tabs %}
 {% tab title="Conocimientos" %}
-Conocimiento mínimo de Arduino
-Conocimiento básico de Processing
+Conocimiento mínimo de Arduino Conocimiento básico de Processing
 {% endtab %}
 
 {% tab title="Requerimientos" %}
@@ -23,16 +22,14 @@ Hardware
 * Arduino UNO, MEGA, NANO
 {% endtab %}
 
-{% tab title="Links relacionados" %}
+{% tab title="Links" %}
 {% embed url="https://processing.org/" %}
-
-{% embed url="https://www.arduino.cc/" %}
 {% endtab %}
 {% endtabs %}
 
 Este artículo describe brevemente cómo se puede usar un Arduino UNO para ejecutar eventos del teclado. Es una alternativa a cambiar el sistema del Arduino por el de un Arduino Leonardo. El enfoque es en convertir strings que llegan por puerto serie en eventos del teclado, usando como interfaz Processing.
 
-***
+
 
 ## Arduino
 
@@ -64,7 +61,7 @@ void loop() {
 }
 ```
 
-***
+
 
 ## Processing
 
@@ -110,7 +107,7 @@ void draw() {
 
 Si conectamos el arduino a la computadora y ejecutamos el sketch, deberíamos ver que se imprime una “_U”._ **Felicitaciones!**
 
-***
+
 
 La herramienta que vamos a precisar para ejecutar un evento de teclado que funcione a nivel del sistema operativo es la clase Robot de Java. Como es una clase de Java y no de processing, vamos a ver que aparece código con el que podemos no estar familiarizados. Continuemos paso a paso.
 
@@ -149,7 +146,7 @@ void setup() {
 }
 ```
 
-***
+
 
 Ahora que ya tenemos todo preparado, podemos empezar a ejecutar eventos. Las dos funciones que vamos a usar son:
 
@@ -188,7 +185,7 @@ void draw() {
 }
 ```
 
-***
+
 
 ## Felicitaciones!
 
@@ -265,7 +262,7 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
     }
     ```
 
-***
+
 
 *   Ejemplo 1 - “Explícito”
 
@@ -444,7 +441,7 @@ Si llegaste hasta acá, ya deberías tener funcionando un pequeño sketch que tr
     }
     ```
 
-***
+
 
 ## Fuentes consultadas
 
