@@ -1,15 +1,11 @@
-# Bienvenides
+# La wiki de emmeLab
 
-#### ¿Qué es la Wiki?&#x20;
+**¿Qué es la Wiki?**
 
-{% hint style="danger" %}
-cambiar esto! no me gusta como está ahora!
-{% endhint %}
+Esta Wiki es un proyecto del laboratorio **emmeLab** de la Facultad de Artes de la UNLP, diseñado para ordenar todo el conocimiento en un solo lugar. Nuestro objetivo es proporcionar una guía práctica de los diversos temas y herramientas que estamos investigando.
 
-Este es un proyecto del Laboratorio emmeLab de la Facultad de Artes de la UNLP que busca concentrar todo el conocimiento desarrollado por este laboratorio en un solo lugar, para que sirva de guía a gente.&#x20;
+**¿Cómo navegar?**
 
-#### ¿Cómo navegar la Wiki?
+La Wiki está dividida en varias páginas, cada una dedicada a un tema o tutorial específico relacionado con nuestras investigaciones. Las páginas están ordenadas en categorías según la temática principal.
 
-La Wiki está compuesta de distintas páginas, cada una de las cuales consiste en una exploración o tutorial de algún tema o herramienta. Estas páginas están divididas en **categorías** según el tema general al que corresponde.&#x20;
-
-También se puede buscar por palabras claves (por ejemplo: Arduino, Processing, Pure Data) para encontrar todas las páginas correspondientes con algún tópico específico.&#x20;
+También se puede usar la función de búsqueda para encontrar cosas específicas, ingresando una palabra clave como "Arduino", "Processing" o "Pure Data".
