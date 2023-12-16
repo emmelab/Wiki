@@ -6,21 +6,19 @@ description: Por Julia Saenz
 
 **Palabras clave**: Sensado del cuerpo, Processing, OSC
 
-{% tabs %}
-{% tab title="Conocimientos" %}
+Conocimientos
 * Conocimiento básico de paradigma de objetos
-{% endtab %}
 
-{% tab title="Requerimientos" %}
+
+Requerimientos
 Software
 
 * Processing 3.5.4 o más
-{% endtab %}
 
-{% tab title="Links" %}
+
+Links
 {% embed url="https://processing.org/" %}
-{% endtab %}
-{% endtabs %}
+
 
 Esta página describe un sistema para sensar el cuerpo usando Processing. La idea es realizar una estructura que pueda adaptarse a diferentes cámaras, métodos se sensado y necesidades, para lo cuál vamos a dividir el código en dos clases principales: `Cámara` y `Detector`&#x20;
 

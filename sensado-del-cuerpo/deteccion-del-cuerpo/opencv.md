@@ -12,12 +12,11 @@ Cascadas de Haar, OpenCV, Visión computacional
 
 Programa que detecte y siga la posición de la mano
 
-{% tabs %}
-{% tab title="Conocimientos" %}
+Conocimientos
 * Conocimiento básico de paradigma orientado a objetos
-{% endtab %}
 
-{% tab title="Requerimientos" %}
+
+Requerimientos
 Software
 
 * Processing
@@ -26,12 +25,11 @@ Software
 Hardware
 
 * Cámara web
-{% endtab %}
 
-{% tab title="Links" %}
+
+Links
 {% embed url="http://atduskgreg.github.io/opencv-processing/reference/gab/opencv/OpenCV.html" %}
-{% endtab %}
-{% endtabs %}
+
 
 ## Open CV
 

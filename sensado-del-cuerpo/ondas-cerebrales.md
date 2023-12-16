@@ -8,13 +8,12 @@ description: Por Luciano Nahuel Espinosa
 
 EEG, Ondas cerebrales, OSC
 
-{% tabs %}
-{% tab title="Conocimiento" %}
+Conocimiento
 * Conocimiento básico en programación orientado a objetos
 * Conocimiento básico en el protocolo de comunicación Open Sound Control (OSC)
-{% endtab %}
 
-{% tab title="Requerimientos" %}
+
+Requerimientos
 Software
 
 * Processing
@@ -24,12 +23,11 @@ Hardware
 
 * Computadora con bluetooth
 * Neurosky Mindwave mobile 2
-{% endtab %}
 
-{% tab title="Links" %}
+
+Links
 {% embed url="https://processing.org" %}
-{% endtab %}
-{% endtabs %}
+
 
 ## Detección de ondas cerebrales
 

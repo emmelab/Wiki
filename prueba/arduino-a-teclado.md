@@ -4,12 +4,11 @@
 
 Lenguajes, Arduino, Processing, Traducción
 
-{% tabs %}
-{% tab title="Conocimientos" %}
+Conocimientos
 Conocimiento básico de Arduino
-{% endtab %}
 
-{% tab title="Requerimientos" %}
+
+Requerimientos
 Software
 
 * Arduino IDE
@@ -20,14 +19,13 @@ Hardware
 * 4 botones
 * cablecitos
 * Arduino (esto completalo vos Fer pls )
-{% endtab %}
 
-{% tab title="Links relacionados" %}
+
+Links relacionados
 {% embed url="https://processing.org/" %}
 
 {% embed url="https://www.arduino.cc/" %}
-{% endtab %}
-{% endtabs %}
+
 
 Este artículo describe brevemente cómo se puede usar un Arduino UNO para ejecutar eventos del teclado. Es una alternativa a cambiar el sistema del Arduino por el de un Arduino Leonardo. El enfoque es en convertir strings que llegan por puerto serie en eventos del teclado, usando como interfaz Processing.
 
