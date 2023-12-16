@@ -49,8 +49,6 @@ Las **cascadas de Haar** son un método de detección de objetos basado en imág
 
 Una vez configurada la cascada, para realizar la detección el algoritmo recorre la imagen y evalúa si cumple con todas las características encontradas, yendo de la más general a la más particular.
 
-<figure><img src="https://docs.opencv.org/3.4/haar.png" alt=""><figcaption><p>Ejemplo de una detección de rostro por cascada de Haar. Disponible en <a href="https://docs.opencv.org/3.4/haar.png">https://docs.opencv.org/3.4/haar.png</a></p></figcaption></figure>
-
 ## Detección con openCV y Processing
 
 Esta entrada sigue la estructura planteada en la página "Detección del cuerpo con Processing" por lo que se recomienda leerla antes de continuar
