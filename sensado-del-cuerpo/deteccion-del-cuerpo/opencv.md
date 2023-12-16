@@ -53,9 +53,7 @@ Una vez configurada la cascada, para realizar la detección el algoritmo recorre
 
 ## Detección con openCV y Processing
 
-{% hint style="info" %}
 Esta entrada sigue la estructura planteada en la página "Detección del cuerpo con Processing" por lo que se recomienda leerla antes de continuar
-{% endhint %}
 
 En este ejemplo vamos a realizar una detección de manos usando la librería OpenCVForProcessing. Para esto vamos a crear una clase `Detector` a la cuál le vamos a pasar la entrada de la cámara web y nos va a retornar la posición de la mano más cercana a la cámara.&#x20;
 
@@ -117,9 +115,7 @@ Para realizar la detección son necesarios dos métodos del objeto `openCV` :&#x
 
 Este último método puede llamarse sin la necesidad de los parámetros indicados, pero no es recomendable ya que estos son los que permiten controlar cómo se está realizando la detección y son la mejor forma de minimizar falsas detecciones.&#x20;
 
-{% hint style="danger" %}
 Acá agregar imagen de la diferencia de detección con parámetros y sin parámetros
-{% endhint %}
 
 Estos son cada uno de los parámetros, sus función y los parámetros recomendados:
 
