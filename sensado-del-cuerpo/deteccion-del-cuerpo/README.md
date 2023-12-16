@@ -17,7 +17,7 @@ Software
 
 
 Links
-{% embed url="https://processing.org/" %}
+url="https://processing.org/" 
 
 
 Esta página describe un sistema para sensar el cuerpo usando Processing. La idea es realizar una estructura que pueda adaptarse a diferentes cámaras, métodos se sensado y necesidades, para lo cuál vamos a dividir el código en dos clases principales: `Cámara` y `Detector`&#x20;

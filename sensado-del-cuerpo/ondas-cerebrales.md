@@ -26,7 +26,7 @@ Hardware
 
 
 Links
-{% embed url="https://processing.org" %}
+  url="https://processing.org" 
 
 
 ## Detección de ondas cerebrales
@@ -79,7 +79,7 @@ Descargar el software Bluetooth Manager y ahí le debe decir el puerto del senso
 
 **Código fuente**
 
-{% embed url="https://github.com/LucianoNahuelEspinosa/Ondas_Cerebrales" %}
+ url="https://github.com/LucianoNahuelEspinosa/Ondas_Cerebrales"
 
 **Ejecutables**
 
@@ -88,4 +88,4 @@ Descargar el software Bluetooth Manager y ahí le debe decir el puerto del senso
 
 **Librería MindSet Processing**
 
-{% embed url="http://jorgecardoso.eu/processing/MindSetProcessing/" %}
+ url="http://jorgecardoso.eu/processing/MindSetProcessing/" 

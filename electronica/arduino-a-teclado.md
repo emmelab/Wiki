@@ -22,8 +22,6 @@ Hardware
 * Arduino UNO, MEGA, NANO
 
 
-Links
-{% embed url="https://processing.org/" %}
 
 
 Este artículo describe brevemente cómo se puede usar un Arduino UNO para ejecutar eventos del teclado. Es una alternativa a cambiar el sistema del Arduino por el de un Arduino Leonardo. El enfoque es en convertir strings que llegan por puerto serie en eventos del teclado, usando como interfaz Processing.

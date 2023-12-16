@@ -28,7 +28,7 @@ Hardware
 
 
 Links
-{% embed url="http://atduskgreg.github.io/opencv-processing/reference/gab/opencv/OpenCV.html" %}
+ url="http://atduskgreg.github.io/opencv-processing/reference/gab/opencv/OpenCV.html" 
 
 
 ## Open CV
@@ -61,7 +61,7 @@ En este ejemplo vamos a realizar una detección de manos usando la librería Ope
 
 Empezamos importando la librería, cuya guía de descarga se puede encontrar en su página:
 
-{% embed url="https://github.com/atduskgreg/opencv-processing" %}
+url="https://github.com/atduskgreg/opencv-processing" 
 
 #### Creando el Detector
 
@@ -260,10 +260,10 @@ void draw() {
 
 Una versión de este código está disponible en GitHub
 
-{% embed url="https://github.com/juliasaenz/Sensado-del-cuerpo/tree/main/Processing/Sensado_OpenCV" %}
+url="https://github.com/juliasaenz/Sensado-del-cuerpo/tree/main/Processing/Sensado_OpenCV" 
 
 ## Referencias y bibliografía relacionada
 
 Documentación de openCV for Processing
 
-{% embed url="http://atduskgreg.github.io/opencv-processing/reference/gab/opencv/OpenCV.html" %}
+url="http://atduskgreg.github.io/opencv-processing/reference/gab/opencv/OpenCV.html" 

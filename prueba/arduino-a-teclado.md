@@ -22,9 +22,9 @@ Hardware
 
 
 Links relacionados
-{% embed url="https://processing.org/" %}
+  url="https://processing.org/" 
 
-{% embed url="https://www.arduino.cc/" %}
+url="https://www.arduino.cc/" 
 
 
 Este artículo describe brevemente cómo se puede usar un Arduino UNO para ejecutar eventos del teclado. Es una alternativa a cambiar el sistema del Arduino por el de un Arduino Leonardo. El enfoque es en convertir strings que llegan por puerto serie en eventos del teclado, usando como interfaz Processing.
